@@ -22,8 +22,9 @@
 > SQL이라는 언어를 통해서 DB라는 서버에 질의(query, 쿼리)를 할 수 있다.
 > ORM을 쓰더라도 어떤 SQL이 동작하고 있는 것인지 파악할 수 있어야 한다.
 
-## Django Model
-> 
+## 모델 필드 타입
+> 자동으로 pk를 생성하는 AutoField도 있다. 
+> CharField/SlugField/URLField/EmailField -> 같은 str 형식을 저장하지만, 장고 단에서 디폴드로 적용된 유효성 검사 등의 차이가 있다.
 
 
 
